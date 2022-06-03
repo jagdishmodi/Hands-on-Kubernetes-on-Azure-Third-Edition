@@ -13,8 +13,8 @@ on:
   pull_request:
     branches: [ main ]
  # Env to set reusable variables
-    env:
-     ACRNAME: registryacr2022
+  env:
+    ACRNAME: registryacr2022
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
